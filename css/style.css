@@ -1626,21 +1626,6 @@ video {
   }
 }
 
-  /* Чтобы на мобилке список было легче проявить (по тапу) */
-  .concept-card:active .concept-card__content {
-    transform: translateY(0);
-  }
-  .concept-card:active .concept-card__list {
-    opacity: 1;
-  }
-
-  @media (max-width: 1280px) {
-    .concept-card:active .concept-card__content {
-      transform: translateY(20%);
-    }
-  }
-
-
 .concept-card__item {
   color: rgba(255,255,255,0.7);
   font-size: clamp(16px, 1vw, 24px);
@@ -1660,7 +1645,7 @@ video {
   }
 }
 
-@media (hover: hover) {
+
   /* ЭФФЕКТ ПРИ НАВЕДЕНИИ */
 .concept-card:hover .concept-card__content {
   transform: translateY(0); /* Поднимаем всё наверх */
@@ -1674,7 +1659,7 @@ video {
   transform: scale(1.02); /* Легкий зум фото */
   opacity: 0.4;         /* Еще больше затемняем фото */
 }
-}
+
 
 
 
